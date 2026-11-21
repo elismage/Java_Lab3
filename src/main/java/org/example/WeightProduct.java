@@ -19,7 +19,7 @@ public class WeightProduct extends Product{
     public String toString() {
         return "WeightProduct{"+
                 "name: '" + getName()+ '\'' +
-                "specification: '" + getSpecification()+ '\'' +
+                ", specification: '" + getSpecification()+ '\'' +
                 "}";
     }
 

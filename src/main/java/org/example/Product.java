@@ -41,7 +41,7 @@ public class Product {
     public String toString() {
         return "Product{"+
                 "name: '" + getName()+ '\'' +
-                "specification: '" + getSpecification()+ '\'' +
+                ", specification: '" + getSpecification()+ '\'' +
                 "}";
     }
 

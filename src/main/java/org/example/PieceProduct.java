@@ -45,8 +45,8 @@ public class PieceProduct extends Product{
         return "PieceProduct{"+
                 "name: '" + getName()+ '\'' +
                 "specification: '" + getSpecification()+ '\'' +
-                "mass(kg): ': '" + getMass()+ '\'' +
-                "}";
+                "mass(kg): ': " + getMass()+ '\'' +
+                "'}";
     }
 
     @Override
